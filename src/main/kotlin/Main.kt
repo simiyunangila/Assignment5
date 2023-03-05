@@ -2,7 +2,7 @@ fun main(){
     val Rebecca=Human("Rebecca",15,53)
      Rebecca.foodw(10)
     Rebecca.speak("Today is a good day")
-    Rebecca.increment(1)
+    Rebecca.birthday(1)
     val STUDENT=User("Rebecca","Simiyu","simiyu@gmail.com",
         "0799202122","dr2222.")
     println(STUDENT.firstname)
@@ -25,8 +25,8 @@ fun main(){
         println(speech)
     }
     //- birthday( ) :Increments the human’s age by 1 (2 points)
-    fun increment(birthday:Int) {
-        var sum = age + birthday
+    fun birthday(addition:Int) {
+        var sum = age + addition
         println(sum)
     }
 }
